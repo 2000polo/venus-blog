@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import './App.css';
-import Home from './layouts/Home';
-import Profile from './layouts/Profile';
+import { RouterProvider } from 'react-router-dom';
+import { router } from './config/routes';
+// import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
-    // <Home />
-    <Profile />
+    <RouterProvider router={router} />
   );
 }
 
