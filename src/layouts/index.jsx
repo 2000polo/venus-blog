@@ -7,7 +7,6 @@ const UserLayout = () => {
   return (
     <>
         <NavBar />
-        <CategoryMenu />
         <Outlet />
     </>
   )
