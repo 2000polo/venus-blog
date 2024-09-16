@@ -4,16 +4,15 @@ const TopBlogsGrid = () => {
   return (
     <div className="grid grid-cols-7 gap-4 sm:grid-cols-7 md:gap-6 xl:gap-2 px-24 z-1 ">
         <div className="col-span-5 group relative flex h-[500px] items-end overflow-hidden bg-gray-100 shadow-lg">
-                <img src="https://i.pinimg.com/originals/a2/94/1f/a2941f55f947539c07903d308a1b4fe2.webp" loading="lazy" alt="Photo by Minh Pham" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+            <img src="https://i.pinimg.com/originals/a2/94/1f/a2941f55f947539c07903d308a1b4fe2.webp" loading="lazy" alt="Photo by Minh Pham" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
-                <div
-                    className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black via-black to-transparent opacity-60">
-                </div>
-                <div className="relative inset-0 bg-gradient-to-t from-black via-black-100 to-transparent ">
-                    <h1 className=" ml-4 mb-1 inline-block text-3xl md:ml-5 md:text-2xl font-extrabold text-white ">Balanced Diet</h1>
-                    <p className="  ml-4 mb-3 text-white md:mx-5 relative">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate impedit accusamus deleniti voluptatum laudantium aspernatur vitae quis quo doloribus consectetur in molestias odit, nisi magni eveniet veniam placeat ullam velit beatae. Iure veniam odio nisi natus laborum adipisci deleniti iusto excepturi architecto laudantium. Eos doloribus fuga neque reiciendis omnis fugiat?</p>
-                </div>
-                
+            <div
+                className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black via-black to-transparent opacity-60">
+            </div>
+            <div className="relative inset-0 bg-gradient-to-t from-black via-black-100 to-transparent ">
+                <h1 className=" ml-4 mb-1 inline-block text-3xl md:ml-5 md:text-2xl font-extrabold text-white ">Balanced Diet</h1>
+                <p className="  ml-4 mb-3 text-white md:mx-5 relative">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate impedit accusamus deleniti voluptatum laudantium aspernatur vitae quis quo doloribus consectetur in molestias odit, nisi magni eveniet veniam placeat ullam velit beatae. Iure veniam odio nisi natus laborum adipisci deleniti iusto excepturi architecto laudantium. Eos doloribus fuga neque reiciendis omnis fugiat?</p>
+            </div>
         </div>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-1 xl:gap-2 col-span-2 z-1">
             <div className="col-span-1 group relative flex items-end overflow-hidden bg-gray-100 shadow-lg">
