@@ -16,7 +16,8 @@ const Footer = () => {
                 </svg>
                 </a>
                 <p className="text-justify">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora porro vero error, aliquam temporibus eligendi veniam eveniet ullam consequuntur libero odio perferendis velit maxime..
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora porro vero error, aliquam temporibus eligendi veniam eveniet ullam consequuntur libero odio perferendis velit maxime.
+                .
                 </p>
             </div>
 
@@ -80,9 +81,9 @@ const Footer = () => {
         <div className="container mx-auto px-4">
             <div className="-mx-4 flex flex-wrap justify-between">
             <div className="px-4 w-full text-center sm:w-auto sm:text-left">
-                Copyright © 2020
+                Copyright © 2024
                 {/* <script>{new Date().getFullYear() > 2020 && document.write("- " + new Date().getFullYear())}</script>- 2022 */}
-                Tailwindow. All Rights Reserved.
+                _Arun Paul. All Rights Reserved.
             </div>
             <div className="px-4 w-full text-center sm:w-auto sm:text-left">
                 Made with ❤️ by <a href='https://github.com/2000polo' className='link'>Arun Paul</a>.
