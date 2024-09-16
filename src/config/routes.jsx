@@ -7,7 +7,7 @@ import BlogView from "../layouts/BlogView";
 
 export const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/home",
       element: <UserLayout />,
     //   errorElement: <div>Error Page</div>,
       children: [
