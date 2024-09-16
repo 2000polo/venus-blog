@@ -8,8 +8,8 @@ import AuthorListItem from '../../components/AuthorListItem'
 const Home = () => {
   return (
     <>
-        {/* <NavBar />
-        <CategoryMenu /> */}
+        {/* <NavBar /> */}
+        <CategoryMenu />
         <TopBlogsGrid />
         {/* HAND PICKD FOR YOU SECTION */}
         <div className="grid grid-cols-7 gap-6 px-24 py-5">
