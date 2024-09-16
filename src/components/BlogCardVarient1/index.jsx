@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const BlogCardMd = () => {
   return (
@@ -25,7 +26,7 @@ const BlogCardMd = () => {
                     href="#!"
                     className="hidden absolute z-10 text-xs bottom-0 right-0 bg-indigo-600 px-6 m-2 py-2 text-white hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out sm:flex items-center"
                 >
-                    <span className="text-lg">|</span>&nbsp;&nbsp;<span>Read more</span>
+                    <Link to="/blog-view"><span className="text-lg">|</span>&nbsp;&nbsp;<span>Read more</span></Link>
                 </a>
             </div>
             <a

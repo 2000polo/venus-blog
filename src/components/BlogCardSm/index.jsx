@@ -1,6 +1,7 @@
 import React from 'react';
 
 const BlogCardSm = () => {
+
     return (
         <div class="flex flex-col justify-center">
             <div
