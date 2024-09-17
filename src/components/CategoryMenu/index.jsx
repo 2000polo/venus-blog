@@ -6,7 +6,7 @@ import { RiStockLine } from 'react-icons/ri'
 
 const CategoryMenu = () => {
   return (
-    <ul className="menu bg-base-200 lg:menu-horizontal rounded-box px-24 flex justify-center w-full">
+    <ul className="menu hidden md:flex bg-base-200 justify-center menu-horizontal rounded-box w-full">
         <li>
             <a>
             <GrTechnology />
