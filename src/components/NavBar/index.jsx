@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   return (
-    <div className="navbar bg-base-100 px-24 border border-t-black-950">
+    <div className="navbar bg-white sticky top-0 z-30 xl:px-24 border border-t-black-950">
         <div className="flex-1">
             {/* <a className="btn btn-ghost text-xl">daisyUI</a> */}
             {/* <h1 className='text-2xl font-bold'>Venus</h1> */}
