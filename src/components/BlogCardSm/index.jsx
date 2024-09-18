@@ -5,7 +5,7 @@ const BlogCardSm = () => {
     return (
         <div class="flex flex-col justify-center">
             <div
-                class="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-3xl mx-auto border border-gray-200 bg-white">
+                class="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3  md:max-w-3xl mx-auto border border-gray-200 bg-white">
                 <div class="w-full h-full md:w-1/3 bg-white grid place-items-center">
                     <img src="https://images.pexels.com/photos/4381392/pexels-photo-4381392.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="tailwind logo" class="rounded-xl" />
             </div>
