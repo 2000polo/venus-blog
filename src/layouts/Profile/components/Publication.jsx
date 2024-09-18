@@ -4,28 +4,28 @@ import BlogCardSm from '../../../components/BlogCardSm';
 const Publications = () => {
     return (
         <>
-            <div className="col-span-3">
+            <div className="col-span-2 md:col-span-3">
                 <BlogCardSm />
             </div>
-            <div className="col-span-3">
+            <div className="col-span-2 md:col-span-3">
                 <BlogCardSm />
             </div>
-            <div className="col-span-3">
+            <div className="col-span-2 md:col-span-3">
                 <BlogCardSm />
             </div>
-            <div className="col-span-3">
+            <div className="col-span-2 md:col-span-3">
                 <BlogCardSm />
             </div>
-            <div className="col-span-3">
+            <div className="col-span-2 md:col-span-3">
                 <BlogCardSm />
             </div>
-            <div className="col-span-3">
+            <div className="col-span-2 md:col-span-3">
                 <BlogCardSm />
             </div>
-            <div className="col-span-3">
+            <div className="col-span-2 md:col-span-3">
                 <BlogCardSm />
             </div>
-            <div className="col-span-3">
+            <div className="col-span-2 md:col-span-3">
                 <BlogCardSm />
             </div>
         </>
